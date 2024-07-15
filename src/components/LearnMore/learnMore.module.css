@@ -1,0 +1,52 @@
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    border: 1px solid var(--color-white);
+    border-radius: 15px;
+    padding: 6px 6px  6px 35px;
+}
+
+.darkBorder {
+    border-color: var(--color-black);
+}
+
+.btnText {
+    color: var(--color-white);
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition:  transform var(--common-transition), background-color var(--common-transition);
+    pointer-events: none;
+}
+
+.darkText {
+    color: var(--color-black);
+}
+
+.btn:hover .arrow {
+    background-color: var(--color-white);
+    transform: translateX(-430%);
+}
+
+.btn:hover .arrow svg path {
+    stroke: var(--color-green);
+}
+
+.btn:hover {
+    background-color: var(--color-green);
+    transition: background-color var(--common-transition);
+}
+
+.btn:hover .btnText{
+    transform: translateX(44%);
+}
+
+.arrow {
+    padding: 17px 21px;
+    border-radius: 15px;
+    background-color: var(--color-green);
+    transition: transform var(--common-transition);
+    pointer-events: none;
+}

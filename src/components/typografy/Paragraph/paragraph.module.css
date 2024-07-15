@@ -1,0 +1,16 @@
+.text {
+    margin: 0;
+}
+
+.dark {
+    color: var(--color-black);
+}
+
+.darkOpacity {
+    color: var(--color-black);
+    opacity: 50%;
+}
+
+.lightOpacity {
+    color: var(--color-gray);
+}

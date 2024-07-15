@@ -1,0 +1,75 @@
+.header {
+    position: relative;
+    display: grid;
+    grid-template-columns:  auto minmax(762px, 800px) 450px auto;
+    grid-template-rows: min-content;
+    z-index: 3;
+    width: 100%;
+    padding: 50px 100px;
+    border-bottom: 1px solid var(--color-gray);
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.headerButtonWrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 662px;
+    width: 100%;
+    gap: 14px
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    color: var(--color-white);
+    text-decoration: none;
+    transition: color var(--common-transition);
+}
+
+.link svg path {
+    transition: stroke var(--common-transition);
+}
+
+
+.link:hover {
+    color: var(--color-green);
+}
+
+.link:hover svg path {
+    stroke: var(--color-green);
+}
+
+.dropdown-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+.dropdown-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity var(--common-transition), transform var(--common-transition);
+}
+.dropdown-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+.dropdown-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity var(--common-transition), transform var(--common-transition);
+}

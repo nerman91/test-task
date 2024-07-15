@@ -1,0 +1,28 @@
+.cardWrapper {
+    display: flex;
+    padding: 25px;
+    gap: 50px;
+    border: 1px solid var(--dark-gray);
+    border-radius: 35px;
+    min-height: 300px;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.headContent {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.headContentGreen {
+    color: var(--color-green);
+}

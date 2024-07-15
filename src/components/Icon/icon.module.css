@@ -1,0 +1,23 @@
+.iconContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.s-default {
+    width: auto;
+    height: auto;
+}
+
+.s-8 {
+    width: 8px;
+}
+
+.s-15 {
+    width: 15px;
+    height: 15px;
+}
+
+.s-25 {
+    width: 25px;
+    height: 25px;
+}
