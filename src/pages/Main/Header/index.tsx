@@ -47,7 +47,7 @@ const Header = () => {
         timeout={300}
         unmountOnExit
       >
-        <Dropdown isOpen={isOpenDropdown} />
+        <Dropdown />
       </CSSTransition>
     </header>
   );

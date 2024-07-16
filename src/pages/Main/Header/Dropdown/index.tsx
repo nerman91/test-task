@@ -3,11 +3,7 @@ import Icon, { EIcons } from '../../../../components/Icon';
 import cn from 'classnames';
 import Info from './Info';
 
-interface DropdownProps {
-  isOpen: boolean;
-}
-
-const Dropdown = ({ isOpen }: DropdownProps) => {
+const Dropdown = () => {
   return (
     <div className={styles.dropdownWrapper}>
       <div className={styles.contentWrapper}>

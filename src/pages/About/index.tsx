@@ -3,7 +3,6 @@ import Paragraph from '../../components/typografy/Paragraph';
 import LearnMore from '../../components/LearnMore';
 import styles from './about.module.css';
 import cn from 'classnames';
-import ScrollButton from '../../components/ScrollButton';
 import NawBar from '../../components/NawBar';
 const About = () => {
   return (
