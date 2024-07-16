@@ -4,7 +4,11 @@ import LearnMore from '../../components/LearnMore';
 import styles from './about.module.css';
 import cn from 'classnames';
 import NawBar from '../../components/NawBar';
+import { useScrollNavigation } from '../../hooks/useScrollNavigation';
+
 const About = () => {
+  useScrollNavigation({ prevPage: '/', nextPage: '/advantages' });
+
   return (
     <section className={styles.aboutContainer}>
       <div className={styles.gridContainer}>

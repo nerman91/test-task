@@ -1,6 +1,7 @@
 .mainContainer {
   position: relative;
-  height: 100dvh;
+  height: 100vh;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .contentWrapper {
@@ -62,4 +63,13 @@
   align-items: center;
   padding-right: 34px;
   height: 100%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
 }

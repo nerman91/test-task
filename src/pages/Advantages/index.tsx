@@ -1,9 +1,10 @@
 import Heading from '../../components/typografy/Heading';
+import { useScrollNavigation } from '../../hooks/useScrollNavigation';
 import cn from 'classnames';
 import { IMAGES } from '../../images';
 import Card from './Card';
-import styles from './advantages.module.css';
 import NawBar from '../../components/NawBar';
+import styles from './advantages.module.css';
 
 const data = [
   {
@@ -37,6 +38,8 @@ const data = [
 ];
 
 const Advantages = () => {
+  useScrollNavigation({ prevPage: '/about' });
+
   return (
     <section className={styles.container}>
       <div className={styles.gridContainer}>
