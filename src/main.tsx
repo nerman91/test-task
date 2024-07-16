@@ -8,7 +8,7 @@ import About from './pages/About';
 import CursorCircle from './components/CursorCurcle';
 import Advantages from './pages/Advantages';
 
-const router = createBrowserRouter([
+const routes = [
   {
     path: '/',
     element: <Main />,
@@ -21,7 +21,9 @@ const router = createBrowserRouter([
     path: '/advantages',
     element: <Advantages />,
   },
-]);
+];
+
+const router = createBrowserRouter(routes);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <TabsContextProvider>
