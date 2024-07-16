@@ -1,64 +1,67 @@
 .btn {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 27px;
-    height: 27px;
-    border: none;
-    outline: none;
-    background-color: transparent;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 27px;
+  height: 27px;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 
 .square {
-    position: absolute;
-    width: 7.5px;
-    height: 7.5px;
-    border-radius: 2px;
-    background-color: var(--color-white);
-    transform: rotate(45deg);
-    transition: transform 0.5s, top 0.5s, left 0.5s;
-    transform-origin: top left;
-    pointer-events: none;
+  position: absolute;
+  width: 7.5px;
+  height: 7.5px;
+  border-radius: 2px;
+  background-color: var(--color-white);
+  transform: rotate(45deg);
+  transition:
+    transform 0.5s,
+    top 0.5s,
+    left 0.5s;
+  transform-origin: top left;
+  pointer-events: none;
 }
 
 .square1 {
-    top: 0.2px;
-    left: 13.5px;
+  top: 0.2px;
+  left: 13.5px;
 }
 
 .square2 {
-    top: 8px;
-    left: 5.5px;
+  top: 8px;
+  left: 5.5px;
 }
 
 .square3 {
-    top: 8px;
-    left: 21px;
+  top: 8px;
+  left: 21px;
 }
 
 .square4 {
-    top: 16px;
-    left: 13px;
+  top: 16px;
+  left: 13px;
 }
 
 .btn:hover > .square {
-    background-color: var(--color-green) ;
-    transition: background-color var(--common-transition);
+  background-color: var(--color-green);
+  transition: background-color var(--common-transition);
 }
 
 .btn:hover .square1 {
-    top: -2px;
+  top: -2px;
 }
 
 .btn:hover .square2 {
-    left: 3.5px;
+  left: 3.5px;
 }
 
 .btn:hover .square3 {
-    left: 23px;
+  left: 23px;
 }
 
 .btn:hover .square4 {
-    top: 18px;
+  top: 18px;
 }

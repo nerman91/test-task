@@ -1,63 +1,61 @@
-
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 5;
 }
 
 .gridContainer {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: grid;
-    grid-template-columns:  auto  464px  464px 464px auto;
-    z-index: -1;
-    height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: auto 464px 464px 464px auto;
+  z-index: -1;
+  height: auto;
 }
 
-
 .gridElem {
-    border-right: 1px solid var(--dark-gray);
+  border-right: 1px solid var(--dark-gray);
 }
 
 .contentWrapper {
-    max-width: 1394px;
-    width: 100%;
-    padding: 0 58px 20px 100px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 50px;
+  max-width: 1394px;
+  width: 100%;
+  padding: 0 58px 20px 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
 }
 
 .headContent {
-    font-weight: 500;
-    font-size: 40px;
+  font-weight: 500;
+  font-size: 40px;
 }
 
 .headContentGreen {
-    color: var(--color-green);
+  color: var(--color-green);
 }
 
 .listWrap {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
 }
 
 .navWrapper {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 20px;
-    padding-bottom: 120px;
-    z-index: 2000;
-    height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 20px;
+  padding-bottom: 120px;
+  z-index: 2000;
+  height: 100%;
 }

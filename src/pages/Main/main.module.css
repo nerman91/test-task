@@ -1,67 +1,65 @@
 .mainContainer {
-    position: relative;
-    height: 100dvh;
+  position: relative;
+  height: 100dvh;
 }
 
 .contentWrapper {
-    max-width: 1890px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1890px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .gridContainer {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: grid;
-    grid-template-columns:  auto minmax(762px, 965px) 428px auto;
-    grid-template-rows:  auto 330px;
-    z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: auto minmax(762px, 965px) 428px auto;
+  grid-template-rows: auto 330px;
+  z-index: 2;
 }
 
-
 .gridEl {
-    border-bottom: 1px solid var(--color-gray);
-    border-right: 1px solid var(--color-gray);
+  border-bottom: 1px solid var(--color-gray);
+  border-right: 1px solid var(--color-gray);
 }
 
 .gridEl:nth-child(4n) {
-    border-right: none;
+  border-right: none;
 }
 
 .gridEl:nth-last-child(-n + 4) {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .logo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 100px;
 }
 
 .headerButtonWrapper {
-    display: flex;
-    align-items: center;
-    padding-left: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
 }
 
-
 .center {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navWrapper {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 34px;
-    height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 34px;
+  height: 100%;
 }

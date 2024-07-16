@@ -1,38 +1,35 @@
 .listWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    gap: 75px;
-    list-style: none;
-    margin: 0;
-    padding-bottom: 100px;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 75px;
+  list-style: none;
+  margin: 0;
+  padding-bottom: 100px;
+  height: 100%;
 }
 
-
-
-.itemCount{
-    margin-bottom: 14px;
-    display: block;
-    color: var(--color-green);
-    font-size: 24px;
-    font-weight: 700;
+.itemCount {
+  margin-bottom: 14px;
+  display: block;
+  color: var(--color-green);
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .tabButton {
-    display: block;
-    color: var(--color-gray);
-    font-size: 20px;
-    font-weight: 600;
-    transition: color var(--common-transition);
+  display: block;
+  color: var(--color-gray);
+  font-size: 20px;
+  font-weight: 600;
+  transition: color var(--common-transition);
 }
 
 .tabButtonSelected {
-    color: var(--color-white);
+  color: var(--color-white);
 }
 
 .tabButton:hover {
-    color: var(--color-white);
+  color: var(--color-white);
 }
-

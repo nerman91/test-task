@@ -21,7 +21,6 @@ img {
   width: 100%;
 }
 
-
 :root {
   --color-white: #fbfbfb;
   --color-green: #22b24c;
@@ -29,17 +28,15 @@ img {
   --color-gray: #ffffff80;
   --default-font-size: 14px;
   --common-transition: 0.3s;
-  --dark-gray:  rgba(16, 16, 16, 0.25);
+  --dark-gray: rgba(16, 16, 16, 0.25);
 }
-
-
 
 body {
   font-weight: 400;
   line-height: 18px;
   font-size: var(--default-font-size);
-  color: var( --color-white);
-  font-family: "Montserrat", sans-serif;
+  color: var(--color-white);
+  font-family: 'Montserrat', sans-serif;
 }
 
 button {
@@ -53,9 +50,9 @@ button {
 
 input {
   outline: none;
-  border:none;
-  background-image:none;
-  background-color:transparent;
+  border: none;
+  background-image: none;
+  background-color: transparent;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
